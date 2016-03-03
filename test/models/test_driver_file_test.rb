@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class NotificationsControllerTest < ActionController::TestCase
+class TestDriverFileTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
