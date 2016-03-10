@@ -7,5 +7,12 @@
 	<%= f.text_field(:name) %>
 	<br>
 
+	<%= f.label(:submit_limit, 'Number of submissions') %>
+	<%= f.number_field(:submit_limit) %>
+	<br>
+
+	<%= f.file_field(:attachment) %>
+	<br>
+
 	<%= f.submit %>
 <% end %>
