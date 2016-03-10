@@ -2,7 +2,11 @@ class InstructorController < ApplicationController
   before_action :force_instructor
 
   def index
-    
+  	if @assessment.update(params[:assessment])
+	  # success
+	else
+	  # error handling
+	end
   end
 
   private

@@ -1,0 +1,11 @@
+<%= javascript_include_tag("instructor.js") %>
+
+<h1>Manage Assignment</h1>
+
+<%= form_for @assessment, :url => manage_path do |f| %>
+	<%= f.label(:name) %>
+	<%= f.text_field(:name) %>
+	<br>
+
+	<%= f.submit %>
+<% end %>
